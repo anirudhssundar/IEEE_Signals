@@ -7,7 +7,7 @@ import struct
 import matplotlib.pyplot as plt
  
 #set frequency of the wave 
-frequency = 264
+frequency = 500
 #frequency2 = 1000    #we'll use this later
  
 num_samples = 8000     
@@ -47,7 +47,7 @@ wav_file=wave.open(file, 'w')
  
 wav_file.setparams((nchannels, sampwidth, int(sampling_rate), nframes,comptype, compname))
 
-for s in sine_final:
+for s in sine_wave:
    wav_file.writeframes(struct.pack('h', int(s*amplitude)))
 
 
