@@ -1,6 +1,16 @@
-
+Windows:
 https://www.anaconda.com/download/
 
+Ubuntu:
+
+sudo apt-get install python-numpy
+sudo apt-get install python-scipy
+sudo apt-get install python-matplotlib
+
+#try sudo pip install python-matplotlib if the above doesn't work
+
+
+Text Editor:
 https://notepad-plus-plus.org/
 
 
